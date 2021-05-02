@@ -1,0 +1,11 @@
+h4{
+    color:aquamarine;
+}
+h1,h3{
+    color:white;
+}
+.technical-skill{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
