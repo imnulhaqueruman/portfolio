@@ -8,6 +8,7 @@ import FootBall from '../../image/rsz_football.png';
 import Rider from '../../image/rsz_2rider.png';
 import Project from '../Project/Project';
 import Footer from '../Footer/Footer';
+import Fade from 'react-reveal/Fade';
 const Projects = () => {
     const bestProjects=[
         {
@@ -59,7 +60,10 @@ const Projects = () => {
         <section>
             <Nav></Nav>
             <div className="container-fluid">
-                <h3 className="text-center text-white">My Projects</h3>
+                <Fade bottom>
+                   <h3 className="text-center text-white">My Projects</h3>
+                </Fade>
+                
                 <div className="row my-5 d-flex">
                     {
                         bestProjects.map(data => <Project data={data}></Project>)
