@@ -5,7 +5,7 @@ const Nav = () => {
     const link="#";
     const download = "https://drive.google.com/uc?export=download&id=1FvOQ8na72T-WHB2iOnuNrpTjonWT36xH";
     return (
-        <nav  className="navbar navbar-light my-2 ">
+        <nav  className="navbar navbar-light my-2  ">
             <div  className="container">
                 <a  className="navbar-brand" href={link}>
                   <h2 className="text-white">Ruman</h2>

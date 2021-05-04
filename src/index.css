@@ -17,5 +17,7 @@ code {
 @media screen and (min-width: 350px) {
   body {
     overflow-x: hidden;
+   
+
   }
 }

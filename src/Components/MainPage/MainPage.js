@@ -12,7 +12,7 @@ const MainPage = () => {
                         <div>
                          <h4>Hello, I'M</h4>
                          <h1>Imnul Haque Ruman</h1>
-                            <div className="d-flex">
+                            <div className="d-flex about">
                                 <ul>
                                 <li className="p-2">
                                     <Zoom bottom>

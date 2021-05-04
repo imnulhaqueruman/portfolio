@@ -1,14 +1,14 @@
-.card:hover img{
+.card1:hover img{
     transform:scale(1.2);
     transition: transform 2s;
     
 }
-.card:hover{
+.card1:hover{
      background: #162943;
      transform:translateY(-20px);
      transition: transform 2s;
 }
-.card button{
+.card1 button{
     justify-content: center;
     width: 130px;
     border-radius: 10px;
@@ -18,11 +18,11 @@
     font-weight: bold;
     color: white
 }
-.card button:hover{
+.card1 button:hover{
     background: transparent;
     border: 5px white solid;
     color: gray;
 }
-.card-body:hover h5,p{
+.card-body1:hover h5,p{
     color:white
 }

@@ -9,3 +9,13 @@ ul{
     color:aquamarine;
     
 }
+@media screen and (max-width:425px){
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    .container-fluid{
+       overflow-x: hidden;
+    }
+}

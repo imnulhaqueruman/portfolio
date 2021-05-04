@@ -5,6 +5,11 @@ import './Home.css';
 import MainPage from '../MainPage/MainPage';
 import Blog from '../Blog/Blog';
 import Footer from '../Footer/Footer';
+import Card from '../Card/Card';
+import Erepair from '../Erepair/Erepair';
+import TalukderStore from '../TalukderStore/TalukderStore';
+import Slide from 'react-reveal/Slide';
+import { Link } from 'react-router-dom';
 const Home = () => {
     const particleOptions = {
         particles:{
@@ -37,6 +42,14 @@ const Home = () => {
             />
             <Nav></Nav>
             <MainPage></MainPage>
+           <Slide left>
+             <Card></Card>
+            <Erepair></Erepair>
+            <TalukderStore></TalukderStore>
+            <div className="d-flex justify-content-center mb-5">
+                <button className="btn btn-outline-success"> <Link to="/projects" className="text-white">See more</Link></button>
+            </div>
+           </Slide>
             <Footer></Footer>
         </div>
     );
