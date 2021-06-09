@@ -9,7 +9,7 @@ import Slide from 'react-reveal/Slide';
 
 const About = () => {
     return (
-        <div className="container my-2 mb-5">
+        <div className="container my-2">
             <Nav></Nav>
           <div className="row d-flex">
                 <div className="col-md-6">
@@ -34,7 +34,10 @@ const About = () => {
                             <button className="btn   btn-success m-2 p-2 rounded">Python</button>
                             <button className="btn   btn-success m-2 p-2 rounded">C</button>
                             <button className="btn   btn-success m-2 p-2 rounded">React</button>
+                            <button className="btn   btn-success m-2 p-2 rounded">Redux</button>
+                            <button className="btn   btn-success m-2 p-2 rounded">React Native</button>
                             <button className="btn   btn-success m-2 p-2 rounded">Node.js</button>
+                            <button className="btn   btn-success m-2 p-2 rounded">TypeScript</button>
                             <button className="btn   btn-success m-2 p-2 rounded">MongoDB</button>
                             <button className="btn   btn-success m-2 p-2 rounded">Express.js</button>
                             <button className="btn   btn-success m-2 p-2 rounded">Bootstrap</button>
@@ -59,10 +62,11 @@ const About = () => {
                        
                     </div>
                 </div>
-               
-
-          </div>
-          <Footer></Footer>
+            </div>
+        <div className="my-5 py-5 mb-0">
+           <Footer></Footer>
+        </div>
+          
         </div>
     );
 };

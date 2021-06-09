@@ -42,10 +42,17 @@ const Home = () => {
             />
             <Nav></Nav>
             <MainPage></MainPage>
+            
            <Slide left>
              <Card></Card>
-            <Erepair></Erepair>
-            <TalukderStore></TalukderStore>
+            </Slide>
+            <Slide right>
+              <Erepair></Erepair>
+            </Slide>
+            <Slide left>
+             <TalukderStore></TalukderStore>
+            </Slide>
+            <Slide right>
             <div className="d-flex justify-content-center mb-5">
                 <button className="btn btn-outline-success"> <Link to="/projects" className="text-white">See more</Link></button>
             </div>

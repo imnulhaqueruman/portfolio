@@ -55,7 +55,7 @@ const MainPage = () => {
                         </div>
                     </div>
                    <div className="col-md-6 col-sm-12 ms-auto mb-5">
-                         <img src={image} style={{height:400}} className="img-fluid" alt=""/>
+                         <img src={image}  className="img-circle" alt=""/>
                    </div>
 
             </div>
