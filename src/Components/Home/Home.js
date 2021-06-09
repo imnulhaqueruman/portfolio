@@ -54,7 +54,7 @@ const Home = () => {
             </Slide>
             <Slide right>
             <div className="d-flex justify-content-center mb-5">
-                <button className="btn btn-outline-success"> <Link to="/projects" className="text-white">See more</Link></button>
+                 <Link to="/projects" className="text-white"><button className="btn btn-outline-success">See more</button></Link>
             </div>
            </Slide>
             <Footer></Footer>
